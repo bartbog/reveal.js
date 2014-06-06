@@ -15,8 +15,21 @@ var RevealMath = window.RevealMath || (function(){
 		MathJax.Hub.Config({
 			messageStyle: 'none',
 			tex2jax: { inlineMath: [['$','$'],['\\(','\\)']] },
-			skipStartupTypeset: true
+			skipStartupTypeset: true,
+			//Zelf voor eqn numbers
+			//TeX: { equationNumbers: { autoNumber: "AMS" } },
+			//Zelf bijgezet voor witte svgs
+			styles: {
+			".MathJax_SVG svg > g, .MathJax_SVG_Display svg > g": {
+			  fill: "#FFF",
+			  stroke: "#FFF"
+			  }
+		  	}			
 		});
+		
+		MathJax.Hub.Config({
+  
+});
 
 		// Typeset followed by an immediate reveal.js layout since
 		// the typesetting process could affect slide height
