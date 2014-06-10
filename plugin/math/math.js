@@ -24,12 +24,10 @@ var RevealMath = window.RevealMath || (function(){
 			  fill: "#FFF",
 			  stroke: "#FFF"
 			  }
-		  	}			
+		  	},
+		  	TeX: { extensions: ["/lib/MathJax/extension/TeX/color.js"] }
 		});
 		
-		MathJax.Hub.Config({
-  
-});
 
 		// Typeset followed by an immediate reveal.js layout since
 		// the typesetting process could affect slide height
