@@ -25,7 +25,7 @@ var RevealMath = window.RevealMath || (function(){
 			  stroke: "#FFF"
 			  }
 		  	},
-		  	TeX: { extensions: ["/lib/MathJax/extension/TeX/color.js"] }
+		  	TeX: { extensions: ["color.js"] }
 		});
 		
 
