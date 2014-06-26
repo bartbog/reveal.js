@@ -25,6 +25,9 @@ var RevealMath = window.RevealMath || (function(){
 			  stroke: "#FFF"
 			  }
 		  	},
+		  	SVG: {
+				scale: 80
+			},
 		  	TeX: { extensions: ["/lib/MathJax/extension/TeX/color.js"] }
 		});
 		
