@@ -28,7 +28,7 @@ var RevealMath = window.RevealMath || (function(){
 		  	SVG: {
 				scale: 80
 			},
-		  	TeX: { extensions: ["/lib/MathJax/extension/TeX/color.js"] }
+		  	TeX: { extensions: ["color.js"] }
 		});
 		
 
